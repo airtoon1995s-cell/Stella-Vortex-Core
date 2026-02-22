@@ -19,6 +19,6 @@ class VortexEngine:
 if __name__ == "__main__":
     engine = VortexEngine(node_count=100)
     log = engine.run_protocol_audit()
-    print(f"Nodes: {log['nodes']} | Entropy: {log['entropy']} | Status: {log['status']}")
+    print(f"Nodes: {log['nodes']} | Entropy: {log['entropy']} | Statu
     
     
